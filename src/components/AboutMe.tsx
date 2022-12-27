@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export function AboutMe() {
   useEffect(() => {
     import('@lottiefiles/lottie-player')
-  })
+  }, [])
 
   return (
     <main
