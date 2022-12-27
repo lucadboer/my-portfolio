@@ -1,4 +1,4 @@
-export default function Header() {
+export function Header() {
   return (
     <div>
       <h1 className="absolute flex items-center font-ubuntu pt-5 text-3xl text-cyan-50 before:content-['<'] before:text-cyan-400 before:text-3xl after:content-['/>'] after:text-cyan-400 after:text-3xl">LucaDestefano</h1>
