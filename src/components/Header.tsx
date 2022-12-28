@@ -13,7 +13,7 @@ export function Header() {
             Sobre mim
           </a>
           <a
-            href="#aboutme"
+            href="#technologies"
             className="border-b-[2.5px] border-transparent tracking-wide hover:text-cyan-400 transition hover:border-b-[2.5px] hover:translate-x-2 "
           >
             Tecnologias

@@ -10,7 +10,7 @@ export function AboutMe() {
   return (
     <main
       id="aboutme"
-      className="max-w-6xl mx-auto mt-8 flex items-center justify-between border-b border-b-cyan-200 pb-16"
+      className="max-w-6xl mx-auto pt-12 flex items-center justify-between"
     >
       <div className="flex flex-col gap-12 max-w-xl">
         <h2 className="text-5xl text-cyan-400">Um pouco sobre mim</h2>

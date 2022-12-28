@@ -22,7 +22,7 @@ export function Technologies() {
   })
 
   return (
-    <main className="max-w-6xl mx-auto mt-20">
+    <main id="technologies" className="max-w-6xl mx-auto mt-20">
       <header className="flex items-center">
         {/* <span className="border-l-4 border-l-cyan-400 h-6 rounded"></span>{' '} */}
         <h2 className="text-5xl text-cyan-400">Tecnologias que utilizo</h2>
