@@ -1,6 +1,6 @@
 import { Header } from './Header'
 
-export function Homer() {
+export function Homes() {
   return (
     <div className="max-w-6xl mx-auto">
       <header>
