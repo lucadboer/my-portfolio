@@ -66,7 +66,7 @@ export function Technologies() {
           </div>
           <div>
             <header className="flex items-center justify-between">
-              <h3 className="text-cyan-100 text-4xl">Front-end</h3>
+              <h3 className="text-cyan-100 text-4xl">Back-end</h3>
               <lottie-player
                 autoplay
                 loop
