@@ -52,7 +52,7 @@ export function Technologies() {
                     >
                       <Image
                         className="max-h-28"
-                        src={`${tech.image}.svg`}
+                        src={`techs/${tech.image}.svg`}
                         alt=""
                         width={300}
                         height={300}
@@ -85,7 +85,7 @@ export function Technologies() {
                     >
                       <Image
                         className="max-h-28"
-                        src={`${tech.image}.svg`}
+                        src={`techs/${tech.image}.svg`}
                         alt=""
                         width={300}
                         height={300}
