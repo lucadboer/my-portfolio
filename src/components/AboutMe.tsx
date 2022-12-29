@@ -1,21 +1,18 @@
 import Link from 'next/link'
 import { DownloadSimple } from 'phosphor-react'
-import { useEffect } from 'react'
 
 export function AboutMe() {
-  useEffect(() => {
-    import('@lottiefiles/lottie-player')
-  }, [])
-
   return (
     <main
       id="aboutme"
       className="max-w-6xl mx-auto pt-12 flex items-center justify-between"
     >
       <div className="flex flex-col gap-12 max-w-xl">
-        <h2 className="text-5xl text-cyan-400">Um pouco sobre mim</h2>
+        <h2 className="font-bold text-5xl text-transparent  bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+          Um pouco sobre mim
+        </h2>
         <p className="text-gray-100 text-xl leading-relaxed">
-          Nascido em Monte Alto-SP, me chamo Luca e tenho 19 anos. sou um dev
+          Nascido em Monte Alto-SP, me chamo Luca e tenho 19 anos. Sou um dev
           com foco no Front-end, porém estou estudando junto com a{' '}
           <Link
             className="text-purple-600 transition hover:text-purple-500"

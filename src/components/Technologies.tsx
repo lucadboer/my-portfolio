@@ -1,14 +1,14 @@
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import Image from 'next/image'
-import javascript from '../assets/technologies/javascript.svg'
-import nodejs from '../assets/technologies/nodejs.svg'
+import { backEnd, frontEnd } from '../data/stacks'
 
 export function Technologies() {
   const [sliderRef] = useKeenSlider({
     mode: 'free-snap',
+    loop: true,
     slides: {
-      perView: 2.8,
+      perView: 2.6,
       spacing: 32,
     },
     // breakpoints: {
@@ -22,118 +22,91 @@ export function Technologies() {
   })
 
   return (
-    <main id="technologies" className="max-w-6xl mx-auto mt-20">
+    <main id="technologies" className="max-w-6xl mx-auto">
       <header className="flex items-center">
         {/* <span className="border-l-4 border-l-cyan-400 h-6 rounded"></span>{' '} */}
-        <h2 className="text-5xl text-cyan-400">Tecnologias que utilizo</h2>
+        <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+          Tecnologias que utilizo
+        </h2>
       </header>
-      <section className="grid grid-cols-2 gap-8 mt-12">
-        <div>
-          <h3 className="text-cyan-100 text-4xl">Front-end</h3>
-          <article
-            ref={sliderRef}
-            className="bg-[#202024] rounded-lg mt-3 keen-slider px-8 py-4"
-          >
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
+      <section className="grid grid-cols-2 items-center mt-4 gap-12">
+        <article className="flex flex-col gap-6">
+          <div>
+            <header className="flex items-center justify-between">
+              <h3 className="text-cyan-100 text-4xl">Front-end</h3>
+              <lottie-player
+                autoplay
+                loop
+                mode="normal"
+                src="https://assets8.lottiefiles.com/packages/lf20_KAAgSJPJxq.json"
+                style={{ width: '150px', height: '90px' }}
+              ></lottie-player>
+            </header>
+            <div className="bg-[#202024] rounded-lg px-4 py-4">
+              <div ref={sliderRef} className="keen-slider flex">
+                {frontEnd.map((tech) => {
+                  return (
+                    <div
+                      key={tech.id}
+                      className="keen-slider__slide text-gray-100 flex flex-col justify-center items-center gap-2 h-[10rem] px-6 py-4 rounded bg-[#121214]"
+                    >
+                      <Image
+                        className="max-h-28"
+                        src={`${tech.image}.svg`}
+                        alt=""
+                        width={300}
+                        height={300}
+                      />
+                      <strong>{tech.name}</strong>
+                    </div>
+                  )
+                })}
+              </div>
             </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
+          </div>
+          <div>
+            <header className="flex items-center justify-between">
+              <h3 className="text-cyan-100 text-4xl">Front-end</h3>
+              <lottie-player
+                autoplay
+                loop
+                mode="normal"
+                src="https://assets8.lottiefiles.com/packages/lf20_KAAgSJPJxq.json"
+                style={{ width: '150px', height: '90px' }}
+              ></lottie-player>
+            </header>
+            <div className="bg-[#202024] rounded-lg px-4 py-4">
+              <div ref={sliderRef} className="keen-slider flex">
+                {backEnd.map((tech) => {
+                  return (
+                    <div
+                      key={tech.id}
+                      className="keen-slider__slide text-gray-100 flex flex-col justify-center items-center gap-2 h-[10rem] px-6 py-4 rounded bg-[#121214]"
+                    >
+                      <Image
+                        className="max-h-28"
+                        src={`${tech.image}.svg`}
+                        alt=""
+                        width={300}
+                        height={300}
+                      />
+                      <strong>{tech.name}</strong>
+                    </div>
+                  )
+                })}
+              </div>
             </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={javascript}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-          </article>
-        </div>
-        <div>
-          <h3 className="text-cyan-100 text-4xl">Back-end</h3>
-          <article
-            ref={sliderRef}
-            className="bg-[#202024] rounded-lg mt-3 keen-slider px-8 py-4"
-          >
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={nodejs}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={nodejs}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={nodejs}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-            <div className="keen-slider__slide flex justify-center items-center h-[10rem] px-6 py-4 rounded bg-[#121214]">
-              <Image
-                className="max-h-28"
-                src={nodejs}
-                alt=""
-                width={300}
-                height={300}
-              />
-            </div>
-          </article>
-        </div>
+          </div>
+        </article>
+        <article>
+          <lottie-player
+            autoplay
+            loop
+            mode="normal"
+            src="https://assets7.lottiefiles.com/private_files/lf30_igfaivqx.json"
+            style={{ width: '600px' }}
+          ></lottie-player>
+        </article>
       </section>
     </main>
   )
