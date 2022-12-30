@@ -37,7 +37,7 @@ export const frontEnd = [
   {
     id: 8,
     image: 'styled-components',
-    name: 'Styled-Components',
+    name: 'Styled Components',
   },
   {
     id: 9,
