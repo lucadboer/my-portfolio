@@ -34,7 +34,7 @@ export function BackEnd() {
           return (
             <div
               key={tech.id}
-              className="keen-slider__slide bg-gray-300 flex flex-col justify-center items-center gap-4 h-[10.5rem] px-6 py-4 rounded"
+              className="keen-slider__slide bg-gray-200 flex flex-col justify-center items-center gap-4 h-[10.5rem] px-6 py-4 rounded"
             >
               <Image
                 className="max-h-28"

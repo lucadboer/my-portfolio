@@ -21,13 +21,6 @@ export function Technologies() {
           <div className="flex flex-col gap-6">
             <header className="flex items-center justify-between">
               <h3 className="text-cyan-100 text-4xl">Back-end</h3>
-              <lottie-player
-                autoplay
-                loop
-                mode="normal"
-                src="https://assets8.lottiefiles.com/packages/lf20_KAAgSJPJxq.json"
-                style={{ width: '150px', height: '90px' }}
-              ></lottie-player>
             </header>
             <BackEnd />
           </div>
