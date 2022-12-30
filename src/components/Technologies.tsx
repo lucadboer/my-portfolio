@@ -7,10 +7,10 @@ export function Technologies() {
       <header className="flex items-center">
         {/* <span className="border-l-4 border-l-cyan-400 h-6 rounded"></span>{' '} */}
         <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
-          Tecnologias que utilizo
+          Meus conhecimentos
         </h2>
       </header>
-      <section className="grid grid-cols-2 items-center justify-center gap-16 mt-8">
+      <section className="grid grid-cols-2 items-center justify-center gap-12 mt-8">
         <article className="flex flex-col gap-12">
           <div className="flex flex-col gap-6">
             <header className="flex items-center justify-between">
@@ -25,13 +25,13 @@ export function Technologies() {
             <BackEnd />
           </div>
         </article>
-        <article>
+        <article className="flex justify-center">
           <lottie-player
             autoplay
             loop
             mode="normal"
-            src="https://assets7.lottiefiles.com/datafiles/fab7172a9302d416bcdb8ac7e1c71123/data.json"
-            style={{ width: '30rem' }}
+            src="https://assets9.lottiefiles.com/private_files/lf30_obidsi0t.json"
+            style={{ width: '27rem' }}
           ></lottie-player>
         </article>
       </section>

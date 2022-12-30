@@ -59,6 +59,11 @@ export const frontEnd = [
     image: 'figma',
     name: 'Figma',
   },
+  {
+    id: 13,
+    image: 'storybook',
+    name: 'Storybook',
+  },
 ]
 
 export const backEnd = [
