@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { AboutMe } from '../components/AboutMe'
 import { Homes } from '../components/Homes'
+import { Projects } from '../components/Projects'
 import { Technologies } from '../components/Technologies'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         ></lottie-player>
       </div>
       <Technologies />
+      <Projects />
     </div>
   )
 }

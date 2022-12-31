@@ -12,8 +12,9 @@ module.exports = {
         home: "url('/bg-home.gif')",
       },
       boxShadow: {
-        home: 'inset 0px -30px 30px #121214;',
+        home: 'inset 0px -30px 30px #121214',
         button: '0px 0px 6px',
+        projects: 'inset 0px -25px 30px #000',
       },
     },
   },

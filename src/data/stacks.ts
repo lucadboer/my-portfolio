@@ -84,7 +84,7 @@ export const backEnd = [
   },
   {
     id: 4,
-    image: 'firebase',
-    name: 'Firebase',
+    image: 'mongodb',
+    name: 'MongoDB',
   },
 ]
