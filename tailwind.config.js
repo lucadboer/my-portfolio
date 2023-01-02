@@ -15,6 +15,7 @@ module.exports = {
         home: 'inset 0px -30px 30px #121214',
         button: '0px 0px 6px',
         projects: 'inset 0px -25px 30px #000',
+        hoverProjects: '0px 0px 8px',
       },
     },
   },

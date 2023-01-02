@@ -3,20 +3,18 @@ import Typed from 'typed.js'
 import { Header } from './Header'
 
 export function Homes() {
-  const el = React.useRef(null)
-  const typed = React.useRef(null)
+  const el = React.useRef()
 
   useEffect(() => {
     const options = {
       strings: ['Desenvolvedor Front-end'],
-      typeSpeed: 65,
-      backSpeed: 50,
+      typeSpeed: 50,
     }
 
-    typed.current = new Typed(el.current, options)
+    const typed = new Typed(el.current, options)
 
     return () => {
-      typed.current.destroy()
+      typed.destroy()
     }
   }, [])
 
