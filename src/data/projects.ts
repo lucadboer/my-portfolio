@@ -60,7 +60,7 @@ export const projects = [
     id: 9,
     image: 'stranger',
     name: 'Stranger Things',
-    deploy: 'https://github.com/lucadboer/Inverted-World-Stranger-Things',
-    github: 'https://lucadboer.github.io/Inverted-World-Stranger-Things/',
+    deploy: 'https://lucadboer.github.io/Inverted-World-Stranger-Things/',
+    github: 'https://github.com/lucadboer/Inverted-World-Stranger-Things',
   },
 ]
