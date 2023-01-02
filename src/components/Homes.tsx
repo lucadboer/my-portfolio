@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 import { Header } from './Header'
 
 export function Homes() {
-  const el = React.useRef()
+  const el: any = useRef()
 
   useEffect(() => {
     const options = {
