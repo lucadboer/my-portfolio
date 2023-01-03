@@ -25,10 +25,10 @@ export function Header() {
             Projetos
           </a>
           <a
-            href=""
+            href="#contactMe"
             className="border-b-[2.5px] border-transparent tracking-wide hover:text-cyan-400 transition hover:border-b-[2.5px] hover:translate-x-2 "
           >
-            Contacte-me
+            Contato
           </a>
         </nav>
       </header>

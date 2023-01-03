@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { AboutMe } from '../components/AboutMe'
+import { ContactMe } from '../components/ContactMe'
 import { Homes } from '../components/Homes'
 import { Projects } from '../components/Projects'
 import { Technologies } from '../components/Technologies'
@@ -10,7 +11,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="pb-12">
+    <div>
       <div className="bg-home bg-no-repeat bg-cover h-screen shadow-home">
         <Homes />
       </div>
@@ -26,6 +27,10 @@ export default function Home() {
       </div>
       <Technologies />
       <Projects />
+      <ContactMe />
+      <footer className="text-gray-300 text-center mt-16 pb-2">
+        <span>© Luca Destefano Boer. All rights reserved.</span>
+      </footer>
     </div>
   )
 }

@@ -17,7 +17,7 @@ export function Projects() {
               className="w-max border-2 border-zinc-800 pb-4 rounded flex flex-col shadow-projects items-center gap-4 bg-zinc-900 transition duration-300 hover:scale-105 hover:border-2 hover:border-cyan-300"
             >
               <Image
-                className="max-h-36"
+                className="max-h-36 object-cover"
                 src={`/projects/${project.image}.png`}
                 width={300}
                 height={300}

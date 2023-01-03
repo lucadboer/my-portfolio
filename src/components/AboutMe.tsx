@@ -8,7 +8,7 @@ export function AboutMe() {
       className="max-w-6xl mx-auto pt-12 flex items-center justify-between"
     >
       <div className="flex flex-col gap-12 max-w-xl">
-        <h2 className="font-bold text-5xl text-transparent  bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+        <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
           Um pouco sobre mim
         </h2>
         <p className="text-gray-100 text-xl leading-relaxed">
