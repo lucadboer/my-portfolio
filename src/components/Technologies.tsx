@@ -8,12 +8,11 @@ export function Technologies() {
       className="max-w-6xl mx-auto max-lg:px-4 max-md:mt-40"
     >
       <header className="flex items-center">
-        {/* <span className="border-l-4 border-l-cyan-400 h-6 rounded"></span>{' '} */}
-        <h2 className="font-bold text-5xl max-lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+        <h2 className="font-bold text-5xl max-lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
           Meus conhecimentos
         </h2>
       </header>
-      <section className="grid grid-cols-2 max-lg:grid-cols-1 items-center justify-center gap-12 mt-8">
+      <section className="grid grid-cols-2 max-lg:grid-cols-1 items-center justify-center gap-12 mt-12">
         <article className="flex flex-col gap-12">
           <div className="flex flex-col gap-6">
             <header className="flex items-center justify-between">

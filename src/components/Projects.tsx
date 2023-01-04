@@ -9,7 +9,7 @@ export function Projects() {
       <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 max-lg:text-4xl max-lg:px-4">
         Meus trabalhos
       </h2>
-      <main className="grid grid-cols-3 items-center max-md:flex max-md:flex-col max-lg:grid-cols-2 gap-8 text-gray-100 mt-10">
+      <main className="grid grid-cols-3 items-center max-md:flex max-md:flex-col max-lg:grid-cols-2 gap-8 text-gray-100 mt-14">
         {projects.map((project) => {
           return (
             <article

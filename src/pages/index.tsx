@@ -30,7 +30,7 @@ export default function Home() {
       <Technologies />
       <Projects />
       <ContactMe />
-      <footer className="text-gray-300 text-center mt-16 pb-2">
+      <footer className="text-gray-300 text-sm text-center mt-24 pb-2">
         <span>© Luca Destefano Boer. All rights reserved.</span>
       </footer>
     </div>
