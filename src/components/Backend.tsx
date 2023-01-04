@@ -13,14 +13,14 @@ export function BackEnd() {
       perView: 2.6,
       spacing: 10,
     },
-    // breakpoints: {
-    //   '(max-width: 768px)': {
-    //     slides: {
-    //       perView: 1.1,
-    //       spacing: 20,
-    //     },
-    //   },
-    // },
+    breakpoints: {
+      '(max-width: 640px)': {
+        slides: {
+          perView: 2.3,
+          spacing: 10,
+        },
+      },
+    },
   })
 
   function handlePassSlide(e: any) {

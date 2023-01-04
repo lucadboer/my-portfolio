@@ -7,7 +7,7 @@ export function Header() {
         <Link href="/">DevLuca</Link>
       </h1>
       <header className="w-full flex justify-center pt-6">
-        <nav className="flex items-center gap-12 text-cyan-50 text-xl">
+        <nav className="flex items-center gap-12 text-cyan-50 text-xl max-sm:grid max-sm:grid-cols-2">
           <a
             href="#aboutme"
             className="border-b-[2.5px] border-transparent tracking-wide hover:text-cyan-400 transition hover:border-b-[2.5px] hover:translate-x-2 "

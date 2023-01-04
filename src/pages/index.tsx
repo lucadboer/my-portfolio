@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="bg-home bg-no-repeat bg-cover h-screen shadow-home">
+      <div className="bg-home bg-no-repeat bg-cover h-screen shadow-home max-sm:bg-right-top">
         <Homes />
       </div>
       <AboutMe />

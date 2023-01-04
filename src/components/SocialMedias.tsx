@@ -17,7 +17,7 @@ export function SocialMedias() {
           style={{ width: '20rem' }}
         ></lottie-player>
       </span>
-      <div className="grid grid-cols-2 gap-7 max-md:px-4">
+      <div className="grid grid-cols-2 gap-7 max-md:px-4 lg:flex lg:mt-20">
         <a
           className="flex flex-col items-center gap-2 text-sm text-gray-300"
           href="https://github.com/lucadboer"
