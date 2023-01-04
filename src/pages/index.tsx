@@ -10,13 +10,15 @@ export default function Home() {
     import('@lottiefiles/lottie-player')
   }, [])
 
+  // 411
+
   return (
     <div>
       <div className="bg-home bg-no-repeat bg-cover h-screen shadow-home">
         <Homes />
       </div>
       <AboutMe />
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center max-md:hidden">
         <lottie-player
           autoplay
           loop

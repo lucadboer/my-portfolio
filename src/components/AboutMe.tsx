@@ -5,13 +5,13 @@ export function AboutMe() {
   return (
     <main
       id="aboutme"
-      className="max-w-6xl mx-auto pt-12 flex items-center justify-between"
+      className="max-w-6xl mx-auto pt-12 flex items-center justify-between max-lg:flex-col max-lg:px-3"
     >
       <div className="flex flex-col gap-12 max-w-xl">
-        <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+        <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 max-lg:text-4xl">
           Um pouco sobre mim
         </h2>
-        <p className="text-gray-100 text-xl leading-relaxed">
+        <p className="text-gray-100 text-xl leading-relaxed max-lg:text-lg">
           Nascido em Monte Alto-SP, me chamo Luca e tenho 19 anos. Sou um dev
           com foco no Front-end, porém estou estudando junto com a{' '}
           <Link
@@ -42,13 +42,15 @@ export function AboutMe() {
           </a>
         </button>
       </div>
-      <lottie-player
-        autoplay
-        loop
-        mode="normal"
-        src="https://assets7.lottiefiles.com/private_files/lf30_WdTEui.json"
-        style={{ width: '450px' }}
-      ></lottie-player>
+      <div className="max-md:hidden">
+        <lottie-player
+          autoplay
+          loop
+          mode="normal"
+          src="https://assets7.lottiefiles.com/private_files/lf30_WdTEui.json"
+          style={{ width: '450px' }}
+        ></lottie-player>
+      </div>
     </main>
   )
 }

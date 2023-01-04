@@ -1,8 +1,10 @@
+import Link from 'next/link'
+
 export function Header() {
   return (
     <>
       <h1 className="absolute flex items-center font-ubuntu pt-5 text-3xl text-cyan-50 before:content-['<'] before:text-cyan-400 before:text-3xl after:content-['/>'] after:text-cyan-400 after:text-3xl">
-        DevLuca
+        <Link href="/">DevLuca</Link>
       </h1>
       <header className="w-full flex justify-center pt-6">
         <nav className="flex items-center gap-12 text-cyan-50 text-xl">
