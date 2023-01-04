@@ -17,7 +17,7 @@ export function SocialMedias() {
           style={{ width: '20rem' }}
         ></lottie-player>
       </span>
-      <div className="flex items-center justify-around max-h-7 mt-24 max-md:gap-6 max-lg:gap-4">
+      <div className="grid grid-cols-2 gap-7 max-md:px-4">
         <a
           className="flex flex-col items-center gap-2 text-sm text-gray-300"
           href="https://github.com/lucadboer"
@@ -33,7 +33,6 @@ export function SocialMedias() {
           />
           <span>@lucadboer</span>
         </a>
-
         <a
           className="flex flex-col items-center gap-2 text-sm text-gray-300"
           href="https://www.linkedin.com/in/luca-destefano-boer/"
