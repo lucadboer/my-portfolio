@@ -4,12 +4,12 @@ import { SocialMedias } from './SocialMedias'
 export function ContactMe() {
   return (
     <div id="contactMe" className="max-w-6xl mx-auto mt-40 p-2">
-      <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 leading-relaxed">
+      <h2 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 max-md:text-4xl">
         Entre em contato
       </h2>
-      <main className="grid grid-cols-2 gap-4 items-center">
+      <main className="grid grid-cols-2 max-md:flex max-md:flex-col gap-4 items-center">
         <form
-          className="mt-10 max-w-lg flex flex-col gap-6 p-5 bg-[#202024] rounded-lg"
+          className="mt-10 max-w-lg max-lg:w-full flex flex-col gap-6 p-5 bg-[#202024] rounded-lg"
           action="https://formsubmit.co/luca.boer@outlook.com"
           method="POST"
         >

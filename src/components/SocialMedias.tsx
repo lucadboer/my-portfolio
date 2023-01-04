@@ -8,14 +8,16 @@ import emailLogo from '../assets/email-logo.svg'
 export function SocialMedias() {
   return (
     <div className="flex flex-col">
-      <lottie-player
-        autoplay
-        loop
-        mode="normal"
-        src="https://assets10.lottiefiles.com/packages/lf20_lt8ter7g.json"
-        style={{ width: '20rem' }}
-      ></lottie-player>
-      <div className="flex items-center justify-around max-h-7 mt-24">
+      <span className="max-md:hidden">
+        <lottie-player
+          autoplay
+          loop
+          mode="normal"
+          src="https://assets10.lottiefiles.com/packages/lf20_lt8ter7g.json"
+          style={{ width: '20rem' }}
+        ></lottie-player>
+      </span>
+      <div className="flex items-center justify-around max-h-7 mt-24 max-md:gap-6 max-lg:gap-4">
         <a
           className="flex flex-col items-center gap-2 text-sm text-gray-300"
           href="https://github.com/lucadboer"
