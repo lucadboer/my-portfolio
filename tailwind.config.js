@@ -11,6 +11,9 @@ module.exports = {
       backgroundImage: {
         home: "url('/bg-home.gif')",
       },
+      backgroundColor: {
+        bgNavbarMobile: 'rgba(0, 0, 0, 0.95)',
+      },
       boxShadow: {
         home: 'inset 0px -30px 30px #121214',
         button: '0px 0px 6px',
