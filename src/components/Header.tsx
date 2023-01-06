@@ -12,7 +12,7 @@ export function Header() {
       </h1>
       <header className="w-full md:flex justify-center max-lg:justify-end max-lg:pr-4 pt-6">
         <button
-          className="md:hidden z-20 absolute right-0 mr-5 text-white border-2 p-1 mt-[-10px] rounded-md border-cyan-400 transition hover:bg-cyan-400"
+          className="md:hidden z-20 fixed right-0 mr-5 text-white border-2 p-1 mt-[-10px] rounded-md border-cyan-400 transition hover:bg-cyan-400"
           onClick={() => setOpenMenu(!openMenu)}
         >
           {openMenu ? <X size={32} /> : <List size={32} />}
