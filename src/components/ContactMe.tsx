@@ -9,7 +9,7 @@ export function ContactMe() {
       </h2>
       <main className="grid grid-cols-2 max-md:flex max-sm:flex-col gap-4 items-center">
         <form
-          className="mt-10 max-w-lg max-lg:w-full flex flex-col gap-6 p-5 bg-[#202024] rounded-lg"
+          className="mt-10 max-w-lg max-lg:w-full flex flex-col gap-6 p-5 bg-[#202024] rounded-lg shadow-lg shadow-black"
           action="https://formsubmit.co/luca.boer@outlook.com"
           method="POST"
         >

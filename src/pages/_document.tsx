@@ -16,7 +16,7 @@ export default function Document() {
         />
         <title>Luca Destefano</title>
       </Head>
-      <body className="bg-[#121214]">
+      <body className="bg-[#121214] scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-zinc-900">
         <NextScript />
         <Main />
       </body>

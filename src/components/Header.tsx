@@ -31,25 +31,25 @@ export function Header() {
         >
           <a
             href="#aboutme"
-            className="block w-max mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
+            className="block w-max max-md:mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
           >
             Sobre mim
           </a>
           <a
             href="#technologies"
-            className="block w-max mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
+            className="block w-max max-md:mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
           >
             Tecnologias
           </a>
           <a
             href="#projects"
-            className="block w-max mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
+            className="block w-max max-md:mt-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
           >
             Projetos
           </a>
           <a
             href="#contactMe"
-            className="block w-max mt-4 max-md:mb-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
+            className="block w-max max-md:mt-4 max-md:mb-4 border-b-[1px] border-cyan-400 tracking-wide hover:text-cyan-400 transition hover:border-b-[1px] hover:-translate-y-1 max-my-4"
           >
             Contato
           </a>
