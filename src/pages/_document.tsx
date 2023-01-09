@@ -15,7 +15,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        <title>Luca Destefano</title>
+        <title>Luca&apos;s Portfolio</title>
       </Head>
       <body className="bg-[#121214] scrollbar-thin scrollbar-thumb-cyan-400 scrollbar-track-zinc-900">
         <NextScript />
