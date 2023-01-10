@@ -32,7 +32,7 @@ export function Homes() {
           sou um{' '}
           <strong
             ref={el}
-            className="text-3xl max-sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-100"
+            className="text-3xl max-sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-100"
           />
         </p>
       </main>
