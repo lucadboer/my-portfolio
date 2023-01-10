@@ -24,9 +24,9 @@ export const projects = [
     id: 4,
     image: 'ds-ignitecall',
     name: 'Design System',
-    deploy: 'https://github.com/lucadboer/ds-ignite-call',
-    github:
+    deploy:
       'https://lucadboer.github.io/ds-ignite-call/?path=/story/home--page',
+    github: 'https://github.com/lucadboer/ds-ignite-call',
   },
   {
     id: 5,

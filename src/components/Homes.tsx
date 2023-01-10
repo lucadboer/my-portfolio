@@ -27,12 +27,12 @@ export function Homes() {
         <p className="border-l-[6px] pl-3 border-cyan-400 text-white text-3xl max-sm:text-2xl leading-relaxed font-ubuntu">
           Hey, eu sou o
           <strong className="block text-5xl max-sm:text-4xl text-cyan-300">
-            Luca Destefano Boer
+            Luca Destefano
           </strong>
           sou um{' '}
           <strong
             ref={el}
-            className="text-4xl max-sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-100"
+            className="text-3xl max-sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-100"
           />
         </p>
       </main>
