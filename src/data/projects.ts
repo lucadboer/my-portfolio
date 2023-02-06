@@ -21,6 +21,13 @@ export const projects = [
     github: 'https://github.com/lucadboer/github-blog',
   },
   {
+    id: 10,
+    image: 'mks-challenge',
+    name: 'eCommerce',
+    deploy: 'https://mks-challenge-lucadboer.vercel.app/',
+    github: 'https://github.com/lucadboer/mks-challenge',
+  },
+  {
     id: 4,
     image: 'ds-ignitecall',
     name: 'Design System',

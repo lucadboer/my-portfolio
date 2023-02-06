@@ -30,6 +30,11 @@ export const frontEnd = [
     name: 'React',
   },
   {
+    id: 14,
+    image: 'react-native',
+    name: 'React Native',
+  },
+  {
     id: 7,
     image: 'nextjs',
     name: 'Next.js',
@@ -84,7 +89,7 @@ export const backEnd = [
   },
   {
     id: 4,
-    image: 'mongodb',
-    name: 'MongoDB',
+    image: 'fastify',
+    name: 'Fastify',
   },
 ]
