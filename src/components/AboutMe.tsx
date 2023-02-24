@@ -27,7 +27,7 @@ export function AboutMe() {
           que me fez brilhar os olhos mais ainda em programação foi conhecer o
           mundo do Front-end e suas tecnologias React, Next.js, TailwindCSS
           (inclusive este portifólio foi construído com essas tecnologias) e por
-          solucionar os problemas desse meio de forma criativa e responsiva. E
+          solucionar os problemas desse meio de forma criativa e "responsiva". E
           hoje busco uma oportunidade para poder atuar nesse universo pelo qual
           tenho muito carinho e não canso de estudar sobre.
         </p>
