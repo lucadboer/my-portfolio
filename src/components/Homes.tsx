@@ -7,8 +7,13 @@ export function Homes() {
 
   useEffect(() => {
     const options = {
-      strings: ['Desenvolvedor Front-end'],
-      typeSpeed: 50,
+      strings: [
+        'Desenvolvedor Fullstack',
+        'Desenvolvedor Mobile',
+        'Desenvolvedor Web',
+        'Desenvolvedor Fullstack',
+      ],
+      typeSpeed: 70,
     }
 
     const typed = new Typed(el.current, options)
