@@ -1,5 +1,12 @@
 export const projects = [
   {
+    id: 11,
+    image: 'call-me',
+    name: 'Call me',
+    deploy: 'https://call-me-lucadboer.vercel.app/',
+    github: 'https://github.com/lucadboer/call-app',
+  },
+  {
     id: 1,
     image: 'ignite-shop',
     name: 'Ignite Shop',

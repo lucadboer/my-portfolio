@@ -9,11 +9,11 @@ export function Homes() {
     const options = {
       strings: [
         'Desenvolvedor Fullstack',
-        'Desenvolvedor Mobile',
+        'Desenvolvedor Javascript',
         'Desenvolvedor Web',
         'Desenvolvedor Fullstack',
       ],
-      typeSpeed: 70,
+      typeSpeed: 50,
     }
 
     const typed = new Typed(el.current, options)

@@ -78,9 +78,9 @@ export const backEnd = [
     name: 'Node',
   },
   {
-    id: 2,
-    image: 'sql',
-    name: 'SQL',
+    id: 4,
+    image: 'fastify',
+    name: 'Fastify',
   },
   {
     id: 3,
@@ -88,8 +88,18 @@ export const backEnd = [
     name: 'Prisma',
   },
   {
-    id: 4,
-    image: 'fastify',
-    name: 'Fastify',
+    id: 5,
+    image: 'knex',
+    name: 'Knex.js',
+  },
+  {
+    id: 6,
+    image: 'nest',
+    name: 'Nest.js',
+  },
+  {
+    id: 2,
+    image: 'sql',
+    name: 'SQL',
   },
 ]
