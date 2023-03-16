@@ -87,6 +87,12 @@ export const backEnd = [
     image: 'fastify',
     name: 'Fastify',
   },
+
+  {
+    id: 8,
+    image: 'vitest',
+    name: 'Vitest',
+  },
   {
     id: 3,
     image: 'prisma',
@@ -98,13 +104,13 @@ export const backEnd = [
     name: 'Knex.js',
   },
   {
-    id: 6,
-    image: 'nest',
-    name: 'Nest.js',
-  },
-  {
     id: 2,
     image: 'postgresql',
     name: 'Postgresql',
+  },
+  {
+    id: 6,
+    image: 'nest',
+    name: 'Nest.js',
   },
 ]
