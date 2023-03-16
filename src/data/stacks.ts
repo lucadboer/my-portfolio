@@ -78,6 +78,11 @@ export const backEnd = [
     name: 'Node',
   },
   {
+    id: 7,
+    image: 'typescript',
+    name: 'Typescript',
+  },
+  {
     id: 4,
     image: 'fastify',
     name: 'Fastify',
@@ -99,7 +104,7 @@ export const backEnd = [
   },
   {
     id: 2,
-    image: 'sql',
-    name: 'SQL',
+    image: 'postgresql',
+    name: 'Postgresql',
   },
 ]
