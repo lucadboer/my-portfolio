@@ -13,9 +13,10 @@ export function AboutMe() {
           Um pouco sobre mim
         </h2>
         <p className="text-gray-100 text-xl leading-relaxed max-lg:text-lg">
-          Que bom ter você por aqui! Então vamos lá, me chamo Luca e tenho 20
-          anos. Sou um Programador Fullstack com foco no Front-end, me
-          especializando em Next.js, React Native e Node.js na plataforma{' '}
+          Olá pessoa, robô ou IA, que sorte a minha ter você por aqui! Então
+          vamos lá, me chamo Luca e tenho 20 anos. Sou um Programador Fullstack
+          com foco nas stacks do Javascript, me especializando em Next.js,
+          Node.js e React Native na plataforma da{' '}
           <Link
             className="text-purple-600 transition hover:text-purple-500"
             href="https://rocketseat.com.br"
@@ -25,12 +26,12 @@ export function AboutMe() {
           </Link>{' '}
           . Também estou cursando o último semestre de Análise e Desenvolvimento
           de Sistemas. Sempre fui apaixonado por tecnologia desde pequenino, e o
-          que me fez brilhar os olhos mais ainda em programação foi conhecer o
-          mundo do Front-end e suas tecnologias React, Next.js, TailwindCSS
-          (inclusive este portifólio foi construído com essas tecnologias) e por
-          solucionar os problemas desse meio de forma criativa e "responsiva". E
-          hoje busco uma oportunidade para poder atuar nesse universo pelo qual
-          tenho muito carinho e não canso de estudar sobre.
+          que me fez brilhar os olhos mais ainda em programação foi entender que
+          consigo solucionar alguns dos problemas do mundo através dos códigos e
+          da tecnologia, tornando ele um lugar melhor. E atualmente busco uma
+          oportunidade para poder atuar nesse universo pelo qual tenho muito
+          carinho e não canso de estudar sobre, afinal, provavelmente serei uma
+          das pessoas mais curiosas que você pode encontrar.
         </p>
         <button className="border-4 border-cyan-400 w-max text-2xl text-gray-100 rounded-lg transition hover:shadow-button hover:shadow-cyan-200 hover:-translate-y-2 shadow-xl shadow-black">
           <a
