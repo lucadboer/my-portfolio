@@ -37,7 +37,7 @@ export function AboutMe() {
           <a
             className="flex items-center gap-4 py-3 px-4"
             download="Currículo Dev - Luca Destefano Boer"
-            href="Curriculo Dev-Luca.pdf"
+            href="Curriculo-Luca.pdf"
           >
             {' '}
             <DownloadSimple size={28} /> Baixar CV
