@@ -36,7 +36,7 @@ export function AboutMe() {
         <button className="border-4 border-cyan-400 w-max text-2xl text-gray-100 rounded-lg transition hover:shadow-button hover:shadow-cyan-200 hover:-translate-y-2 shadow-xl shadow-black">
           <a
             className="flex items-center gap-4 py-3 px-4"
-            download="Currículo Dev - Luca Destefano Boer"
+            download="Currículo-Luca Destefano Boer"
             href="Curriculo-Luca.pdf"
           >
             {' '}
