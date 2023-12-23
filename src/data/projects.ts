@@ -1,12 +1,5 @@
 export const projects = [
   {
-    id: 11,
-    image: 'call-me',
-    name: 'Call me',
-    deploy: 'https://call-me-lucadboer.vercel.app/',
-    github: 'https://github.com/lucadboer/call-app',
-  },
-  {
     id: 1,
     image: 'ignite-shop',
     name: 'Ignite Shop',
@@ -28,11 +21,10 @@ export const projects = [
     github: 'https://github.com/lucadboer/github-blog',
   },
   {
-    id: 10,
-    image: 'mks-challenge',
-    name: 'eCommerce',
-    deploy: 'https://mks-challenge-lucadboer.vercel.app/',
-    github: 'https://github.com/lucadboer/mks-challenge',
+    id: 11,
+    image: 'call-me',
+    name: 'Call me',
+    github: 'https://github.com/lucadboer/call-app',
   },
   {
     id: 4,
@@ -43,25 +35,11 @@ export const projects = [
     github: 'https://github.com/lucadboer/ds-ignite-call',
   },
   {
-    id: 5,
-    image: 'pokedex',
-    name: 'Pokedex',
-    deploy: 'https://pokedex-react-lucadboer.vercel.app/',
-    github: 'https://github.com/lucadboer/Pokedex-React',
-  },
-  {
     id: 6,
     image: 'space-flight-news',
     name: 'Space Flight News',
     deploy: 'https://space-flight-news-hazel.vercel.app/',
     github: 'https://github.com/lucadboer/space-flight-news',
-  },
-  {
-    id: 7,
-    image: 'todolist',
-    name: 'To do list',
-    deploy: 'https://to-do-list-reactajs.vercel.app/',
-    github: 'https://github.com/lucadboer/To-do-list-ReactJS',
   },
   {
     id: 8,
@@ -76,5 +54,19 @@ export const projects = [
     name: 'Stranger Things',
     deploy: 'https://lucadboer.github.io/Inverted-World-Stranger-Things/',
     github: 'https://github.com/lucadboer/Inverted-World-Stranger-Things',
+  },
+  {
+    id: 5,
+    image: 'pokedex',
+    name: 'Pokedex',
+    deploy: 'https://pokedex-react-lucadboer.vercel.app/',
+    github: 'https://github.com/lucadboer/Pokedex-React',
+  },
+  {
+    id: 7,
+    image: 'todolist',
+    name: 'To do list',
+    deploy: 'https://to-do-list-reactajs.vercel.app/',
+    github: 'https://github.com/lucadboer/To-do-list-ReactJS',
   },
 ]
