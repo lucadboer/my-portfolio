@@ -28,14 +28,16 @@ export function Projects() {
                   {project.name}
                 </h3>
                 <div className="flex items-center justify-between gap-4 text-lg">
-                  <Link
-                    className="flex items-center gap-2 border-2 border-cyan-500 rounded-md px-4 py-2 duration-[0.25s] hover:bg-cyan-500 hover:-translate-y-1"
-                    href={project.deploy}
-                    target="_blank"
-                  >
-                    <RocketLaunch size={22} />
-                    Deploy
-                  </Link>
+                  {project.deploy && (
+                    <Link
+                      className="flex items-center gap-2 border-2 border-cyan-500 rounded-md px-4 py-2 duration-[0.25s] hover:bg-cyan-500 hover:-translate-y-1"
+                      href={project.deploy}
+                      target="_blank"
+                    >
+                      <RocketLaunch size={22} />
+                      Deploy
+                    </Link>
+                  )}
                   <Link
                     className="flex items-center gap-2 border-2 border-cyan-500 rounded-md px-4 py-2 transition hover:bg-cyan-500 hover:-translate-y-1"
                     href={project.github}
