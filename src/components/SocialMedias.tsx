@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import githubLogo from '../assets/github-logo.svg'
 import linkedinLogo from '../assets/linkedin-logo.svg'
-import whatsappLogo from '../assets/whatsapp-logo.svg'
+
 import emailLogo from '../assets/email-logo.svg'
 
 export function SocialMedias() {
@@ -17,7 +17,7 @@ export function SocialMedias() {
           style={{ width: '20rem' }}
         ></lottie-player>
       </span>
-      <div className="grid grid-cols-2 gap-7 max-md:px-4 lg:flex lg:mt-20">
+      <div className="grid grid-cols-3 mt-5 gap-7 max-md:px-4 lg:flex lg:items-center lg:justify-center lg:mt-20">
         <a
           className="flex flex-col items-center gap-2 text-sm text-gray-300"
           href="https://github.com/lucadboer"
@@ -47,22 +47,6 @@ export function SocialMedias() {
             alt="linkedin"
           />
           <span>@lucadestefanoboer</span>
-        </a>
-
-        <a
-          className="flex flex-col items-center gap-2 text-sm text-gray-300"
-          href="https://whatsa.me/5516981526867"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Image
-            className="max-h-14 transition hover:scale-110"
-            src={whatsappLogo}
-            width={50}
-            height={50}
-            alt="whatsapp"
-          />
-          <span>(16) 98152-6867</span>
         </a>
         <span className="flex flex-col items-center gap-2 text-sm text-gray-300">
           <Image
