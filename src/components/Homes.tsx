@@ -10,7 +10,7 @@ export function Homes() {
       strings: [
         'Desenvolvedor Fullstack',
         'Desenvolvedor Javascript',
-        'Desenvolvedor Web',
+        'Desenvolvedor Mobile',
         'Desenvolvedor Fullstack',
       ],
       typeSpeed: 50,

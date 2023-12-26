@@ -25,7 +25,7 @@ export function Header() {
           {openMenu ? <X size={32} /> : <List size={32} />}
         </button>
         <nav
-          className={`text-xl z-10 bg-bgNavbarMobile md:bg-transparent text-cyan-50 md:flex md:items-center md:gap-10 md:pb-0 fixed md:static md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`text-xl z-10 bg-bgNavbarMobile md:bg-transparent text-cyan-50 md:flex md:items-center md:gap-10 md:pb-0 fixed md:static md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-200 ease-in ${
             openMenu ? 'top-0' : 'top-[-490px]'
           }`}
         >
